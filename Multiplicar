@@ -1,0 +1,29 @@
+/* Multiplicación
+K1051 Jimena Míguez
+01/05/2016
+*/
+
+#include <iostream>
+
+int main() {
+
+using namespace std;
+
+unsigned a, b, c, r ;
+
+c=0;
+r=0;
+
+cin >> a;
+cin >> b;
+
+do {
+	
+	c= c+1;
+	r= r+b;
+	
+} while (a != c);
+
+cout<< r;
+ 
+}
